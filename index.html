@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Portfolio Website</title>
+  <link rel="stylesheet" href="CSS/style.css"/>
+</head>
+
+<body>
+  <header>
+    <div class="logo-container">
+      <img src="foto.png" alt="Website logo" />
+    </div>
+    
+    <nav class="desktop">
+      <a href="#Home-Page">Home Page</a>
+      <a href="#Our-Profile">Our Profile</a>
+      <a href="#Message-Us">Message Us</a>
+    </nav>
+
+    <div class="menu-toggle" id="menu-toggle">
+      <div></div><div></div><div></div>
+    </div>
+
+    <button id="dark-toggle">🌙</button>
+
+    <nav class="mobile" id="mobile-menu">
+      <a href="#Home-Page">Home Page</a>
+      <a href="#Our-Profile">Our Profile</a>
+      <a href="#Message-Us">Message Us</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="Home-Page">
+      <h1>Welcome <span id="welcome-user">[User]</span> to Our Website</h1>
+      <p>Ini adalah website latihan pertama saya.</p>
+      <p>
+        Website ini dirancang untuk memperkenalkan layanan digital yang kami tawarkan kepada publik. Kami percaya bahwa dengan kombinasi desain menarik dan fungsionalitas yang kuat, kami bisa membantu Anda membangun kehadiran online yang luar biasa.
+      </p>
+      <p>
+        Anda bisa menavigasi ke bagian "Our Profile" untuk mengenal lebih jauh visi dan misi perusahaan kami, atau menuju "Message Us" untuk mengirimkan pesan.
+      </p>
+      <p>
+        Kami memiliki tim yang solid, penuh semangat, dan terus berinovasi agar layanan kami tetap relevan dan sesuai dengan kebutuhan pengguna masa kini.
+      </p>
+    </section>
+
+    <hr/>
+
+    <section class="banner">
+      <img src="foto.png" alt="Company Banner" />
+    </section>
+
+    <hr/>
+
+    <section id="Our-Profile">
+      <h2>About the Company</h2>
+      <p>
+        Kami adalah perusahaan berbasis teknologi yang bergerak di bidang pembuatan website dan aplikasi digital. Didirikan oleh para profesional muda, kami memiliki komitmen penuh untuk memberikan hasil terbaik.
+      </p>
+
+      <p>
+        Keahlian kami meliputi:
+        <ul>
+          <li>Pembuatan Website Statis dan Dinamis</li>
+          <li>Pengembangan Aplikasi Mobile</li>
+          <li>Integrasi Sistem API</li>
+          <li>Desain UI/UX Modern dan Responsif</li>
+        </ul>
+      </p>
+
+      <h2>Vision</h2>
+      <p>
+        Menjadi perusahaan teknologi yang mendorong kemajuan digital di Indonesia melalui solusi kreatif dan inovatif.
+      </p>
+
+      <h2>Mission</h2>
+      <ul>
+        <li>Menghadirkan produk digital berkualitas tinggi dan terjangkau.</li>
+        <li>Membangun hubungan jangka panjang dengan klien.</li>
+        <li>Mengedepankan profesionalisme dan kreativitas dalam setiap proyek.</li>
+        <li>Meningkatkan literasi digital masyarakat luas.</li>
+      </ul>
+
+      <p>
+        Dengan pengalaman kami di berbagai sektor industri, kami siap membantu bisnis Anda tumbuh di era digital ini.
+      </p>
+    </section>
+
+    <hr/>
+
+    <section id="Message-Us">
+      <h2>Message Us</h2>
+      <p>Silakan kirim pesan atau pertanyaan Anda melalui form di bawah ini.</p>
+
+      <form id="message-form">
+        <input type="text" id="name" placeholder="Your Name" required />
+        <input type="email" id="email" placeholder="Your Email" required />
+        <button type="submit">Kirim</button>
+      </form>
+
+      <div id="form-result"></div>
+
+      <p style="margin-top: 30px;">
+        Kami akan membalas pesan Anda melalui email secepat mungkin. Terima kasih atas perhatian dan ketertarikan Anda terhadap layanan kami.
+      </p>
+      <p>
+        Jika Anda memiliki permintaan khusus seperti pembuatan toko online, integrasi dengan payment gateway, atau migrasi hosting — jangan ragu untuk menyampaikannya melalui form ini.
+      </p>
+      <p>
+        Anda juga dapat mengikuti kami di media sosial untuk mengetahui update terbaru, artikel teknologi, dan tips pengembangan website.
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 My Portfolio</p>
+  </footer>
+
+  <script src="JS/script.js"></script>
+</body>
+</html>
