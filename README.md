@@ -1,0 +1,1 @@
+Kak ini aku make assistant AI seperti yang kak yama ajarkan di sesi 17 july, tapi saat di run setelah dipublish ke github bbrp fungsi seperti pop up untuk mengisi nama di awal tidak muncul, result setelah mengisi message pun sama, dan dark mode nya juga tidak berfungsi :(
